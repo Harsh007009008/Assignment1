@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#echo "Starting"
 while IFS="," read -r col1 col2 col3
 do
     if [ "$col1" = "time" ]; then
